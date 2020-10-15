@@ -1,4 +1,4 @@
-#include "btree.h"
+#include "binary_tree.h"
 
 void pre_order(struct node *t) {
     if(t != NULL){

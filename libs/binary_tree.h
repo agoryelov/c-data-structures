@@ -1,5 +1,6 @@
-#ifndef BINARYTREE_BTREE_H
-#define BINARYTREE_BTREE_H
+#ifndef DC_LIBS_BINARY_TREE_H
+#define DC_LIBS_BINARY_TREE_H
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -28,4 +29,4 @@ void init_node(struct node ** new_node, int data);
 void make_sample_tree(struct node ** root);
 
 
-#endif //BINARYTREE_BTREE_H
+#endif //DC_LIBS_BINARY_TREE_H
